@@ -40,7 +40,7 @@ header h1{
 
 .card{
     margin: 10px 5px;
-    height: 150px;
+    height: 180px;
     padding: 5px;
     background-image: url(../img/pattern.png);
     background-size: contain;
@@ -48,7 +48,6 @@ header h1{
     width: calc(25% - 10px);
     float: left;
     box-shadow: 2px 3px rgba(0,0,0, 0.3);
-   
 }
 
 .card .card-image{
