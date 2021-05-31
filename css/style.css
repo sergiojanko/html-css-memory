@@ -104,7 +104,7 @@ header h1{
 
 
 
-.card:hover{
+.card:active{
     background-image: unset;
     background-color: #fff;
 }
@@ -146,11 +146,11 @@ header h1{
     background-position: center;
 }
 
-.card:hover .card-image{
+.card:active .card-image{
     visibility: visible;
 }
 
-.card:hover h2{
+.card:active h2{
     visibility: visible;
 }
 
