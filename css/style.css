@@ -153,3 +153,10 @@ header h1{
 .card:hover h2{
     visibility: visible;
 }
+
+/* footer */
+
+footer{
+    margin: 20px auto;
+    text-align: center;
+}
