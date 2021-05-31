@@ -79,7 +79,30 @@ header h1{
 }
 #special h2{
     visibility: visible;
+    color: goldenrod;
 }
+
+.air-balloon h2{
+    color: goldenrod;
+}
+
+.tractor h2{
+    color: forestgreen;
+}
+.tram h2{
+    color: dodgerblue;
+}
+.submarine h2{
+    color: palevioletred;
+}
+.cruise-ship h2{
+    color: gray;
+}
+.bicycle h2{
+    color: darkred;
+}
+
+
 
 .card:hover{
     background-image: unset;
