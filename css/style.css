@@ -5,7 +5,6 @@
 }
 
 body{
-    max-width: 1200px;
     background-color: #ADD8E6;
     font-family: 'Nerko One', cursive;
 }
@@ -17,6 +16,7 @@ body{
 }
 
 .mega-container{
+    max-width: 600px;
     width: 80%;
     margin: 0 auto;
 }
@@ -49,9 +49,14 @@ header h1{
     position: relative;
 }
 
-.card img{
+.card .card-image{
     max-width: 100%;
-    height: auto;
+    height: 80%;
+    margin: 0 auto;
+    visibility: hidden;
+    position: absolute;
+    top: 5%;
+    left: 15%;
 }
 
 .card h2{
@@ -59,4 +64,18 @@ header h1{
     position: absolute;
     bottom: 5%;
     left: 15%;
+    visibility: hidden;
+}
+
+.card:hover{
+    background-color: #fff;
+    background-image: unset;
+}
+
+.card:hover .card-image{
+    visibility: visible;
+}
+
+.card:hover h2{
+    visibility: visible;
 }
