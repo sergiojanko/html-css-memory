@@ -109,37 +109,37 @@ header h1{
     background-color: #fff;
 }
 
-.card.air-balloon:hover .card-image{
+.card.air-balloon:active .card-image{
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-.card.bicycle:hover .card-image{
+.card.bicycle:active .card-image{
     background-image: url(../img/noun_Bicycle_3134821.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-.card.cruise-ship:hover .card-image{
+.card.cruise-ship:active .card-image{
     background-image: url(../img/noun_Cruise_Ship_3134824.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-.card.tractor:hover .card-image{
+.card.tractor:active .card-image{
     background-image: url(../img/noun_Tractor_3134797.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-.card.tram:hover .card-image{
+.card.tram:active .card-image{
     background-image: url(../img/noun_Tram_3134750.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-.card.submarine:hover .card-image{
+.card.submarine:active .card-image{
     background-image: url(../img/noun_Submarine_3134738.png);
     background-size: contain;
     background-repeat: no-repeat;
