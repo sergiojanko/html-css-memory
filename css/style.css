@@ -58,14 +58,68 @@ header h1{
 }
 
 
+
 .card h2{
     text-align: center;
     visibility: hidden;
 }
 
-.card:hover{
-    background-color: #fff;
+#special{
     background-image: unset;
+    background-color: #fff;
+
+}
+#special .air-balloon{
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    visibility: visible;
+}
+#special h2{
+    visibility: visible;
+}
+
+.card:hover{
+    background-image: unset;
+    background-color: #fff;
+}
+
+.card:hover .air-balloon{
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card:hover .bicycle{
+    background-image: url(../img/noun_Bicycle_3134821.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card:hover .cruise-ship{
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card:hover .tractor{
+    background-image: url(../img/noun_Tractor_3134797.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card:hover .tram{
+    background-image: url(../img/noun_Tram_3134750.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card:hover .submarine{
+    background-image: url(../img/noun_Submarine_3134738.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card:hover .card-image{
